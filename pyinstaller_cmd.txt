@@ -1,0 +1,1 @@
+pyinstaller -y -F -w -i "icon.ico" --add-data "icon.ico";"." --hidden-import babel.numbers  "Structurizer.py"
